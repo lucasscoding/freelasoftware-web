@@ -32,13 +32,13 @@ module.exports = {
         }
       }]
     }
-  ]
+    ]
   },
   devServer: {
     static: './public',
     historyApiFallback: true,
     devMiddleware: {
-      writeToDisk: true,
+      writeToDisk: true
     }
   },
   externals: {

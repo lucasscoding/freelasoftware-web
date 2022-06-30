@@ -1,0 +1,15 @@
+.container_background {
+  display: flex;
+  padding: 15px 10px;
+  align-items: center;
+  background: #222;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}

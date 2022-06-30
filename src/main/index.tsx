@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Hello } from '@/presentation/views'
+import { MainPage } from '@/presentation/pages'
+import './global.css'
 
-ReactDOM.render(<Hello />, document.getElementById('root'))
+ReactDOM.render(<MainPage />, document.getElementById('root'))
