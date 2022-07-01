@@ -5,7 +5,7 @@ import Style from './footer-component.css'
 export class FooterComponent extends Component {
   render (): ReactNode {
     return (
-      <Container className={Style.container_background}>
+      <Container className={Style.container_background} fluid>
         <Container className={Style.container}>
           email: contato@freelasoftware.com
         </Container>
