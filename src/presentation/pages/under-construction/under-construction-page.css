@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  align-items: center;
+  height: 80ch;
+}
+
+.container h1 {
+  font-size: 22px;
+}
