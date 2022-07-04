@@ -8,7 +8,7 @@ export class UnderConstructionPage extends Component {
     return (
       <Container fluid={'md'}>
         <Row>
-          <Col md= {3}>
+          <Col>
             <div className={Style.container}>
               <div>
               <FontAwesomeIcon icon={faPersonDigging} size={'4x'} className={Style.icon} />
