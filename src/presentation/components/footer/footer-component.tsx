@@ -7,7 +7,7 @@ export class FooterComponent extends Component {
     return (
       <Container className={Style.container_background} fluid>
         <Container className={Style.container}>
-          email: contato@freelasoftware.com
+          <p>email: contato@freelasoftware.com</p>
         </Container>
       </Container>
     )

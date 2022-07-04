@@ -1,6 +1,6 @@
 import React, { Component, ReactNode } from 'react'
 import { UnderConstructionPage } from '@/presentation/pages'
-import { FooterComponent, HeaderComponent, LogoComponent, MainComponent } from '@/presentation/components'
+import { HeaderComponent, LogoComponent, MainComponent } from '@/presentation/components'
 
 export class MainPage extends Component {
   render (): ReactNode {
@@ -12,7 +12,7 @@ export class MainPage extends Component {
         <MainComponent>
           <UnderConstructionPage />
         </MainComponent>
-        <FooterComponent />
+      {/* <FooterComponent /> */}
       </>
     )
   }
