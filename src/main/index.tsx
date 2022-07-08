@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { MainPage } from '@/presentation/pages'
+import { ApplicationRouter } from '@/main/routers'
 import './global.css'
 
-ReactDOM.render(<MainPage />, document.getElementById('root'))
+ReactDOM.render(<ApplicationRouter />, document.getElementById('root'))

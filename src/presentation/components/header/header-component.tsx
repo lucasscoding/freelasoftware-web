@@ -12,7 +12,7 @@ export class HeaderComponent extends Component<HeaderProps> {
       <>
         <Navbar bg={'dark'} variant={'dark'}>
           <Container>
-              <Navbar.Brand href={'#home'} >
+              <Navbar.Brand href={'/'} >
                 <Container className={Style.container}>
                   { this.props.children }
                 </Container>
