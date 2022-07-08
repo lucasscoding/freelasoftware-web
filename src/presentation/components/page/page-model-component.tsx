@@ -1,8 +1,11 @@
 import React, { Component, ReactNode } from 'react'
-import { UnderConstructionPage } from '@/presentation/pages'
 import { HeaderComponent, LogoComponent, MainComponent } from '@/presentation/components'
 
-export class MainPage extends Component {
+type PageModelProps = {
+  children: any
+}
+
+export class PageModelComponent extends Component<PageModelProps> {
   render (): ReactNode {
     return (
       <>
@@ -10,7 +13,7 @@ export class MainPage extends Component {
           <LogoComponent />
         </HeaderComponent>
         <MainComponent>
-          <UnderConstructionPage />
+          { this.props.children }
         </MainComponent>
       {/* <FooterComponent /> */}
       </>
