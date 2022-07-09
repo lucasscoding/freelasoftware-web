@@ -1,6 +1,6 @@
 import React, { Component, ReactNode } from 'react'
 import { BrowserRouter, Routes as Switch, Route } from 'react-router-dom'
-import { HomePage, UnderConstructionPage } from '@/presentation/pages'
+import { HomePage, UnderConstructionPage, SignUpPage } from '@/presentation/pages'
 
 export class ApplicationRouter extends Component {
   render (): ReactNode {
@@ -9,6 +9,7 @@ export class ApplicationRouter extends Component {
         <Switch>
           <Route path={'/'} element={<HomePage />} />
           <Route path={'/warning'} element={<UnderConstructionPage />} />
+          <Route path={'/signup'} element={<SignUpPage />} />
         </Switch>
       </BrowserRouter>
     )
